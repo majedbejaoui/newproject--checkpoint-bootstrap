@@ -1,16 +1,29 @@
 .App {
   text-align: center;
-}
+  background-image: url(/images/pexels-photo-1591447.jpeg);
+ /* background-size: cover;*/
+ /* Full height */
+ height: 100%;
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+ /* Center and scale the image nicely */
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+}
+.monform{
+  width: 300px ;
+max-width:  330px; ;
+padding: 15px;
+margin: auto;
+height:100% ;
+font-size: 20px;
+border-radius: 12px;
+background-color: #19191a;
+color: rgb(194, 27, 27);
+min-height: 100vh;
+justify-content: center;
+
 }
 
 .App-header {
@@ -28,11 +41,4 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
